@@ -14,4 +14,5 @@ def game_ends(Ai_side,Player_side):  ### is end
 
         return True
     else:
+        
         return False
