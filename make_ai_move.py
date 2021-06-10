@@ -47,4 +47,4 @@ def make_ai_move(n, ai_layout, player_layout,with_stealing=False):
             if j == 5 and value != 0: #more balls so acess ai-side (not first tome)
                 flag = False
 
-    return False
+    return False 
