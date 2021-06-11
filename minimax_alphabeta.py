@@ -1,3 +1,7 @@
+def experimental_score(Ai_side, Player_side):
+
+    return (Ai_side[0]-Player_side[6])
+
 def minimax_alphabeta(player_layout,AI_layout, alpha, beta, depth, is_Max,withstealing):
     if depth == 0:
         return experimental_score(AI_layout,player_layout), -1
